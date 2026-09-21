@@ -1,0 +1,96 @@
+{
+  "@type": "ResearchOntology",
+  "name": "Almighty Sonoxo Research Ontology",
+  "version": "0.1.0",
+  "dateCreated": "2026-09-21",
+  "creator": {
+    "name": "Almighty Sonoxo",
+    "role": "Founder / Author / Research Director"
+  },
+  "systems": [
+    "GPT-DOUG",
+    "GPT-CHAOS"
+  ],
+  "axioms": [
+    "Every claim has provenance.",
+    "Every source remains attributed to its original author or assignee.",
+    "Patent-derived concepts are prior art or inspiration, not automatically original invention.",
+    "Every promoted claim has an evidence record.",
+    "Simulation precedes physical autonomy.",
+    "A human/policy gate precedes consequential real-world actuation.",
+    "Weapon targeting, payload actuation, detonators, and autonomous kinetic authority are excluded.",
+    "Breakthrough status requires reproducible evidence and prior-art review."
+  ],
+  "evidenceDepth": {
+    "E0": "Unverified mention or metadata only",
+    "E1": "Abstract or summary verified",
+    "E2": "Description or claims inspected",
+    "E3": "Independent technical corroboration or implementation evidence",
+    "E4": "Controlled experiment with recorded metrics",
+    "E5": "Independent reproduction or strong external validation"
+  },
+  "promotionStates": {
+    "research_only": "Interesting but insufficiently validated or too uncertain for implementation.",
+    "simulation_only": "May be implemented only in sandbox or digital-twin environments.",
+    "safety_pattern_only": "Reusable only as a safety or governance pattern.",
+    "promotion_candidate": "Eligible after evidence, IP/license, security, and safety review.",
+    "promoted": "Implemented with traceable tests, provenance, and rollback controls."
+  },
+  "claimStatus": {
+    "observation": "Directly supported by cited source.",
+    "synthesis": "New combination or interpretation of documented material.",
+    "hypothesis": "Testable proposition not yet demonstrated.",
+    "breakthrough_candidate": "Potentially important result requiring reproducibility and novelty review.",
+    "validated_result": "Supported by controlled experiments and reproducible evidence.",
+    "breakthrough": "Reserved for validated, reproducible, materially novel findings with prior-art review."
+  },
+  "pipeline": [
+    "INGEST_SOURCE",
+    "VERIFY_PROVENANCE",
+    "EXTRACT_SAFE_ENGINEERING_LESSON",
+    "REGISTER_INSIGHT",
+    "FORM_HYPOTHESIS",
+    "SIMULATE",
+    "EVALUATE",
+    "SAFETY_REVIEW",
+    "PRIOR_ART_REVIEW",
+    "REPRODUCE",
+    "PROMOTE_OR_REJECT",
+    "PUBLISH_WITH_LIMITATIONS"
+  ],
+  "autonomyPolicy": {
+    "default": "simulation_first",
+    "realWorldActuation": "Requires explicit authorization, policy approval, rollback, logging, and bounded scope.",
+    "excludedOperationalDomains": [
+      "weapon targeting",
+      "payload actuation",
+      "detonators",
+      "autonomous kinetic authority"
+    ]
+  },
+  "publicationPolicy": {
+    "allowedBeforeValidation": [
+      "research note",
+      "technical disclosure",
+      "preprint",
+      "breakthrough candidate"
+    ],
+    "forbiddenWithoutEvidence": [
+      "proven breakthrough",
+      "clinically proven",
+      "peer reviewed",
+      "validated by USPTO"
+    ],
+    "requiredMetadata": [
+      "author",
+      "version",
+      "release_date",
+      "claim_status",
+      "evidence_depth",
+      "references",
+      "limitations",
+      "conflicts",
+      "safety_scope"
+    ]
+  }
+}
