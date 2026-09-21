@@ -1,0 +1,64 @@
+{
+  "registryVersion": "0.1.0",
+  "updated": "2026-09-21",
+  "entries": [
+    {
+      "sourceId": "US20260277672A1",
+      "title": "Reducing latency in highly scalable HPC applications via accelerator-resident runtime management",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "Advanced Micro Devices, Inc.; U.S. patent application publication",
+      "lesson": "Shared dependency state and local scheduling can reduce orchestration latency; runtime reassignment should remain observable and bounded.",
+      "classification": "promotion_candidate"
+    },
+    {
+      "sourceId": "US20260277941A1",
+      "title": "Enhancement of retrieval augmented generation using geospatial data",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "Chevron U.S.A. Inc.; U.S. patent application publication",
+      "lesson": "Detect domain-specific intent, route to a specialist retrieval layer, and inject structured records as grounded context.",
+      "classification": "promotion_candidate"
+    },
+    {
+      "sourceId": "WO2026192805A1",
+      "title": "Distribution of query-based tasks to on-network AI models",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "Lenovo (United States) Inc.; PCT publication",
+      "lesson": "Discover model capabilities, decompose a query, route subtasks to specialists, and reconcile outputs.",
+      "classification": "promotion_candidate"
+    },
+    {
+      "sourceId": "WO2026193321A1",
+      "title": "Agentic artificial intelligence for interactive and incremental software development",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "Public PCT publication",
+      "lesson": "Use checkpointed intermediate states, interaction-driven revision, and traceable progression toward a final artifact.",
+      "classification": "promotion_candidate"
+    },
+    {
+      "sourceId": "US20260281005A1",
+      "title": "Methods, apparatus and systems for network configuration",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "Telefonaktiebolaget LM Ericsson (publ); U.S. patent application publication",
+      "lesson": "Generate multiple proposals, predict effects in simulation/digital twin, then gate real-world changes.",
+      "classification": "safety_pattern_only"
+    },
+    {
+      "sourceId": "US20260277307A1",
+      "title": "Multimodal-based human-computer interaction method and system thereof",
+      "publicationDate": "2026-09-17",
+      "evidenceDepth": "E2",
+      "provenance": "U.S. patent application publication",
+      "lesson": "Dynamic multimodal weighting can improve interaction, but sensitive inference requires privacy constraints and explicit scope.",
+      "classification": "research_only"
+    }
+  ],
+  "authoritativeSearchSurfaces": [
+    "USPTO Patent Public Search",
+    "WIPO PATENTSCOPE"
+  ]
+}
